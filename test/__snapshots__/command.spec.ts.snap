@@ -119,7 +119,15 @@ exports[`test deno run command > command handles args correctly 1`] = `
 }
 `;
 
-exports[`test deno why command > command handles args correctly 1`] = `null`;
+exports[`test deno why command > command handles args correctly 1`] = `
+{
+  "args": [
+    "why",
+    "vite",
+  ],
+  "command": "deno",
+}
+`;
 
 exports[`test npm add command > command handles args correctly 1`] = `
 {

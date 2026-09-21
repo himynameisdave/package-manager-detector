@@ -158,7 +158,7 @@ const deno: AgentCommands = {
   'upgrade': ['deno', 'outdated', '--update', 0],
   'upgrade-interactive': ['deno', 'outdated', '--update', 0],
   'dedupe': null,
-  'why': null,
+  'why': ['deno', 'why', 0],
   'execute': ['deno', 'x', 0],
   'execute-local': ['deno', 'task', '--eval', 0],
   'uninstall': ['deno', 'remove', 0],
